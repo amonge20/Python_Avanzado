@@ -38,3 +38,14 @@ argumento posicional “nombre”(y sin valor por defecto) y varios
 argumentos de palabra clave: "edad", "curso" y “promedio" (puedes
 ponerles como valor por defecto None). La función debe imprimir la
 información del alumno en un formato legible.
+
+# Formulario
+
+Crea un programa que valide un formulario de registro. Crea una función
+llamada validar_formulario que reciba diferentes campos de un formulario
+(nombre, correo electrónico y número de teléfono) y verifique si los valores
+ingresados cumplen con los requisitos especificados, siendo estos:
+1. Que el nombre tenga una longitud minima de 3 caracteres
+2. Que el teléfono este conformado por dígitos y tenga una longitud de 9
+caracteres
+3. Que el email contenga un “@“ y un “.”
